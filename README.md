@@ -23,7 +23,7 @@ The canvas css can be changed by using the id = "visualizerCanvas"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Demo</title>
 </head>
 <body>
     <script src="../audiovisualizer.js"></script>
