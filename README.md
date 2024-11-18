@@ -16,6 +16,7 @@ Code demo: https://github.com/zhiftyDK/audiovisualizer/tree/main/demo
 ```
 
 ### **How to use**
+The canvas css can be changed by using the id = "visualizerCanvas"
 ```html
 <!DOCTYPE html>
 <html lang="en">
