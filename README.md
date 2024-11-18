@@ -3,9 +3,14 @@
 ### **About**
 Circular audio visualization in javascript
 
+### **Demo**
+Live demo: https://zhiftydk.github.io/audiovisualizer/demo/
+
+Code demo: https://github.com/zhiftyDK/audiovisualizer/tree/main/demo
+
 ### **Import**
 ```html
-<script src=""></script>
+<script src="https://zhiftydk.github.io/audiovisualizer/audiovisualizer.js"></script>
 ```
 
 ### **How to use**
