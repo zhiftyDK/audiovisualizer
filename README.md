@@ -1,7 +1,9 @@
 # Intentclassification
 
 ### **About**
-Circular audio visualization in javascript
+Circular audio visualization in javascript.
+
+DISCLAIMER: The javascript code is asking for permission to use the microphone (IT DOESNT USE IT). Its used to make the audio file play without user-interaction.
 
 ### **Demo**
 Live demo: https://zhiftydk.github.io/audiovisualizer/demo/
