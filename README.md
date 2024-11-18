@@ -26,7 +26,7 @@ The canvas css can be changed by using the id = "visualizerCanvas"
     <title>Demo</title>
 </head>
 <body>
-    <script src="../audiovisualizer.js"></script>
+    <script src="https://zhiftydk.github.io/audiovisualizer/audiovisualizer.js"></script>
     <audio id="audio" src="./test.mp3"></audio>
     <button onclick="playAudio()" >Play</button>
     <script>
