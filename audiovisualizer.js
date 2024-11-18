@@ -5,6 +5,7 @@ class Visualizer {
         canvas.style.zIndex = -1;
         canvas.style.top = 0;
         canvas.style.left = 0;
+        canvas.id = "visualizerCanvas"
         document.body.appendChild(canvas);
         this.audio = audio;
         this.ended = () => {}; // Default to a no-op function
