@@ -45,7 +45,7 @@ viz.addEventListener("ended", () => {
 ### **Canvas CSS**
 The canvas css can be changed by using the id = "visualizerCanvas"
 ```css
-// The default css is --
+// The default css is:
 #visualizerCanvas {
     position: absolute;
     z-index: -1;
