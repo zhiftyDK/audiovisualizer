@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <script src="../audiovisualizer.js"></script>
+    <audio id="audio" src="./test.mp3"></audio>
+    <button onclick="playAudio()" >Play</button>
+    <script>
+        const audioElement = document.getElementById("audio");
+        const viz = new Visualizer(audioElement, "rgba(0,0,0,0.5)");
+        viz.curve(5, 100, true); // curve_width, circle_radius, filled
+
+        function playAudio() {
+            viz.play();
+            viz.addEventListener("ended", () => {
+                audio1.currentTime = 0;
+            });
+        }
+    </script>
+</body>
+</html>

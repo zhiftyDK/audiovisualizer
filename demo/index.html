@@ -5,19 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
 </head>
-<body>
-    <script src="../audiovisualizer.js"></script>
-    <audio id="audio" src="./test.mp3"></audio>
-    <button onclick="playAudio()" >Play</button>
-    <script>
-        const audioElement = document.getElementById("audio");
-        const viz = new Visualizer(audioElement, 100, 5, 100, "#000000");
-        function playAudio() {
-            viz.play();
-            viz.addEventListener("ended", () => {
-                audioElement.currentTime = 0;
-            });
-        }
-    </script>
+<body style="display: flex; justify-content: space-around; align-items: center; height: 90vh;">
+    <div>
+        <button onclick="javascript:window.open('./bars.html', target='_self')" >Audio Visualizer with bars</button>
+    </div>
+    <div>
+        <button onclick="javascript:window.open('./curve.html', target='_self')" >Audio Visualizer with curve</button>
+    </div>
 </body>
 </html>
