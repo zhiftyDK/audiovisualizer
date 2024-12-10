@@ -1,4 +1,4 @@
-# Intentclassification
+# Audio Visualizer
 
 ### **About**
 Circular audio visualization in javascript.
